@@ -1,7 +1,12 @@
 module.exports = {
-  content: [],
+  mode: "jit",
+  content: ["./src/screens/Home/Home.jsx", "./src/components/Nav/Nav.jsx"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'home-background': "url('/src/photos/homeBackground.jpg')"
+      }
+    },
   },
   plugins: [],
 };
