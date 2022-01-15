@@ -7,7 +7,9 @@ module.exports = {
     "./src/components/Footer/Footer.jsx",
     "./src/screens/Connect/Connect.jsx",
     "./src/screens/Give/Give.jsx",
-    "./src/screens/About/About.jsx"
+    "./src/screens/About/About.jsx",
+    "./src/components/ConnectForm/ConnectForm.jsx",
+    "./src/components/Map/Map.jsx"
   ],
   theme: {
     extend: {
