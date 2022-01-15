@@ -14,13 +14,19 @@ function HomeScroll() {
             corrupti ipsa deserunt deleniti alias enim exercitationem. Commodi
             aliquid non accusamus?
           </p>
-          <button className=" rounded-md p-3 bg-[#007b83] text-white">
+          <button className=" rounded-md p-3 bg-[#007b83] text-[white]">
             <Link to="/about">Learn More</Link>
           </button>
         </div>
         <div className=" flex-1">
           <img className=" m-auto" src={betterTogether} alt="" />
         </div>
+      </div>
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
     </div>
   );

@@ -21,9 +21,15 @@ function Footer() {
       </div>
       <div className=" flex-1 p-[50px]">
         <h2 className="text-[20px] pb-4 font-slab">Follow Us</h2>
-        <img className=' w-[50px] inline-block mr-3' src={instagram} alt="" />
+        <a href="https://www.instagram.com/riverwalk_church/?hl=en" target='_blank' rel="noreferrer">
+          <img className=' w-[50px] inline-block mr-3' src={instagram} alt="" />
+          </a>
+          <a href="https://www.youtube.com/channel/UC-kZi2y7hf3I43EffbZXQCg" target='_blank' rel="noreferrer">
         <img className=' w-[50px] inline-block mr-3' src={youtube} alt="" />
+          </a>
+          <a href="https://www.facebook.com/riverwalkchurchmilton" target='_blank' rel="noreferrer">
         <img className=' w-[50px] inline-block' src={facebook} alt="" />
+          </a>
       </div>
     </footer>
   );

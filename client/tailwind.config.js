@@ -5,6 +5,9 @@ module.exports = {
     "./src/components/Nav/Nav.jsx",
     "./src/components/HomeScroll/HomeScroll.jsx",
     "./src/components/Footer/Footer.jsx",
+    "./src/screens/Connect/Connect.jsx",
+    "./src/screens/Give/Give.jsx",
+    "./src/screens/About/About.jsx"
   ],
   theme: {
     extend: {
