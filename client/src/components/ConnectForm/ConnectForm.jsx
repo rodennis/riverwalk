@@ -3,7 +3,7 @@ import bubble from '../../photos/bubble.png'
 
 function ConnectForm() {
   return (
-    <div className=" flex justify-center items-center">
+    <div className=" flex justify-center items-center pt-[100px]">
       <div className=" flex-1">
       <img className=" w-[400px] h-[400px] m-auto mt-[100px]" src={bubble} alt="" />
       <p className=" text-[#DEC822] text-[30px] relative bottom-[320px]"> Leave us a message <br/> we would love to <br /> get in contact!</p>

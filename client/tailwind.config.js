@@ -19,6 +19,8 @@ module.exports = {
     },
     fontFamily: {
       slab: "josefin-slab",
+      mono: "Ubuntu-Mono",
+      satisfy: 'satisfy'
     },
     colors: {
       'nav-back': 'rgb(0, 0, 0, 0.5)',
