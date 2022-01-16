@@ -48,3 +48,25 @@ export const fundamentals = [
     body: "We believe that the Lord Jesus Christ as both God and man is the only One who can reconcile us to God. He was born of a virgin, lived a sinless and exemplary life, died on the cross in our place, and rose again to prove His victory and empower us for life.",
   },
 ];
+
+export const pillars = [
+  {
+    title: "Discover Christ",
+
+    body: "We believe every person has a next step in their relationship with God. Whether you are brand new to the faith, or have been serving God all your life. We design our Sunday Services around this one goal; to help all people take their next step in discovering Christ and having a personal relationship.",
+  },
+  {
+    title: "Build Community",
+
+    body: "At RiverwalkChurch, we know true life change is found in circles, not in rows. Riverwalk Groups are designed to help people, regardless of their past, find genuine and lasting freedom in Jesus.",
+  },
+  {
+    title: "Walk With Purpose",
+    body: "God has a plan and purpose for you! We want to help you find it! At Riverwalk Church, we believe the best way to begin this process is by going through our Growth Track Class. This class is strategically designed to help you discover your God given gifts and ultimately find your purpose.",
+  },
+  {
+    title: "Make a Difference",
+
+    body: "At Riverwalk Church, we value each person and their unique gifting’s and talents. The only way to truly be fulfilled in this life is to use your God given gifts to serve others! Our Riverwalk Dream Team is designed to plug you in to the church by giving you an avenue to use your gifts to serve others and make a difference.",
+  },
+];

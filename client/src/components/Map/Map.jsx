@@ -27,7 +27,7 @@ const MapContainer = () => {
             src={churchBuilding}
             alt=""
           />
-          <h2 className=" font-satisfy text-[40px] pt-3">Pace Campus</h2>
+          <h2 className=" font-satisfy text-[40px] pt-3 text-[#007b83]">Pace Campus</h2>
         </div>
         <div className=" flex-1 mb-[-200px]">
           <LoadScript googleMapsApiKey={key}>
@@ -37,7 +37,7 @@ const MapContainer = () => {
               center={defaultCenter}
             />
           </LoadScript>
-          <h2 className="font-satisfy text-[40px] pt-3">Google Maps</h2>
+          <h2 className="font-satisfy text-[40px] pt-3 text-[#007b83]">Google Maps</h2>
         </div>
       </div>
     </div>
