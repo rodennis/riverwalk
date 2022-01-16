@@ -26,7 +26,8 @@ module.exports = {
       'nav-back': 'rgb(0, 0, 0, 0.5)',
     },
     boxShadow: {
-      'shadow': '0 1.95px 1.95px 2.6px rgba(0, 0, 0, 0.15)'
+      'contactFormShadow': '0 1.95px 1.95px 2.6px rgba(0, 0, 0, 0.15)',
+      'cardShadow': '2.95px 3.95px 2.6px rgba(0, 0, 0, 0.35)'
     }
   },
   plugins: [],
