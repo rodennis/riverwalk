@@ -1,11 +1,11 @@
 import React from "react";
-import instagram from '../../photos/instagram.png'
-import facebook from '../../photos/facebook.png'
-import youtube from '../../photos/youtube.png'
+import instagram from "../../photos/instagram.png";
+import facebook from "../../photos/facebook.png";
+import youtube from "../../photos/youtube.png";
 
 function Footer() {
   return (
-    <footer className=" flex flex-row relative top-[100vh] bg-[#eeeeee]">
+    <footer className=" flex flex-row w-[100%] bottom-0 relative bg-[#eeeeee]">
       <div className=" flex-1 "></div>
       <div className=" flex-1 text-left p-[50px] ">
         <h1 className=" text-[20px] ml-[25%] font-slab pb-3">Contact Us</h1>
@@ -21,15 +21,27 @@ function Footer() {
       </div>
       <div className=" flex-1 p-[50px]">
         <h2 className="text-[20px] pb-4 font-slab">Follow Us</h2>
-        <a href="https://www.instagram.com/riverwalk_church/?hl=en" target='_blank' rel="noreferrer">
-          <img className=' w-[50px] inline-block mr-3' src={instagram} alt="" />
-          </a>
-          <a href="https://www.youtube.com/channel/UC-kZi2y7hf3I43EffbZXQCg" target='_blank' rel="noreferrer">
-        <img className=' w-[50px] inline-block mr-3' src={youtube} alt="" />
-          </a>
-          <a href="https://www.facebook.com/riverwalkchurchmilton" target='_blank' rel="noreferrer">
-        <img className=' w-[50px] inline-block' src={facebook} alt="" />
-          </a>
+        <a
+          href="https://www.instagram.com/riverwalk_church/?hl=en"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className=" w-[50px] inline-block mr-3" src={instagram} alt="" />
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UC-kZi2y7hf3I43EffbZXQCg"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className=" w-[50px] inline-block mr-3" src={youtube} alt="" />
+        </a>
+        <a
+          href="https://www.facebook.com/riverwalkchurchmilton"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className=" w-[50px] inline-block" src={facebook} alt="" />
+        </a>
       </div>
     </footer>
   );

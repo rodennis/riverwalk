@@ -7,7 +7,7 @@ function Give() {
     });
 
     return (
-        <div className=" w-full h-screen bg-home-background bg-cover bg-center bg-fixed">
+        <div className=" w-full h-screen bg-[white] mt-[100vh]">
             
         </div>
     )
