@@ -9,7 +9,9 @@ module.exports = {
     "./src/screens/Give/Give.jsx",
     "./src/screens/About/About.jsx",
     "./src/components/ConnectForm/ConnectForm.jsx",
-    "./src/components/Map/Map.jsx"
+    "./src/components/Map/Map.jsx",
+    "./src/components/Leaders/Leaders.jsx",
+    "./src/components/SundayExperience/SundayExperience.jsx"
   ],
   theme: {
     extend: {

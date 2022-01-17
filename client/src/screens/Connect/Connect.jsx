@@ -8,12 +8,12 @@ function Connect() {
   });
 
   return (
-    <div>
+    <>
       <div className=" w-full h-[100%] bg-[white] mt-[100vh]">
         <ConnectForm />
         <Map />
       </div>
-    </div>
+    </>
   );
 }
 
