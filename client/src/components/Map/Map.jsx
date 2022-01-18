@@ -7,7 +7,7 @@ const MapContainer = () => {
 
   const mapStyles = {
     height: "60%",
-    width: "90%",
+    width: "100%",
   };
 
   const defaultCenter = {
@@ -23,13 +23,13 @@ const MapContainer = () => {
       <div className="flex">
         <div className=" flex-1 mb-[-200px]">
           <img
-            className=" w-[90%] h-[60%] m-auto"
+            className=" w-[100%] h-[60%] m-auto"
             src={churchBuilding}
             alt=""
           />
           <h2 className=" font-satisfy text-[40px] pt-3 text-[#007b83]">Pace Campus</h2>
         </div>
-        <div className=" flex-1 mb-[-200px]">
+        <div className=" flex-1 mb-[-200px] ml-[50px]">
           <LoadScript googleMapsApiKey={key}>
             <GoogleMap
               mapContainerStyle={mapStyles}
