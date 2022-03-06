@@ -10,4 +10,10 @@ html {
     background-repeat: no-repeat;
 }
 
-/* w-full h-[100vh] bg-home-background bg-cover bg-center bg-fixed relative overflow-auto text-center */
+/* @media (max-width: 640px) {
+    html {
+        background-size: 100vw;
+        background-size: 100vh;
+    
+    }
+} */

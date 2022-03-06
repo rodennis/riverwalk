@@ -18,6 +18,11 @@ module.exports = {
       backgroundImage: {
         "home-background": "url('/src/photos/homeBackground.jpg')",
       },
+      screens: {
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1280px',
+      },
     },
     fontFamily: {
       slab: "josefin-slab",

@@ -17,7 +17,7 @@ function ConnectForm() {
       </div>
       <div className="flex-1">
         <form className=" h-[560px] w-[500px] m-auto shadow-contactFormShadow">
-          <h1 className=" text-[50px] font-slab text-[#DEC822] pb-10 pt-10 ">
+          <h1 className=" text-[50px] font-satisfy text-[#DEC822] pb-10 pt-10 ">
             Contact Us
           </h1>
           <input
