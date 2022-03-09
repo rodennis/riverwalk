@@ -31,6 +31,7 @@ module.exports = {
     },
     colors: {
       'nav-back': 'rgb(0, 0, 0, 0.5)',
+      'hamburger': 'rgb(95,95,95, 0.8)',
     },
     boxShadow: {
       'contactFormShadow': '0 1.95px 1.95px 2.6px rgba(0, 0, 0, 0.15)',
