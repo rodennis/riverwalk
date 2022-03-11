@@ -17,6 +17,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "home-background": "url('/src/photos/homeBackground.jpg')",
+        "phone": "url('/src/photos/telephone.png')",
       },
       screens: {
         'sm': '640px',

@@ -5,7 +5,7 @@ import youtube from "../../photos/youtube.png";
 
 function Footer() {
   return (
-    <footer className=" border-[1px] border-t-nav-back flex flex-col w-[100%] bottom-0 relative bg-[#eeeeee] md:flex-row">
+    <footer className=" border-t-[1px] border-t-nav-back flex flex-col w-[100%] bottom-0 relative bg-[#eeeeee] md:flex-row">
       <div className=" text-center flex-1 md:text-left p-[50px] ">
         <h1 className=" text-[20px] md:ml-[25%] font-slab pb-3">Contact Us</h1>
         <h3 className=" md:ml-[25%] font-slab pb-2">

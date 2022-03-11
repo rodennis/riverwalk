@@ -1,39 +1,39 @@
 import React from "react";
-import bubble from "../../photos/bubble.png";
+import phone from '../../photos/telephone.png'
 
 function ConnectForm() {
   return (
     <div className=" flex justify-center items-center pt-[100px]">
-      <div className=" flex-2 pl-[150px]">
-        <img
-          className=" w-[400px] h-[400px] m-auto mt-[100px]"
-          src={bubble}
-          alt=""
-        />
-        <p className=" text-[#007b83] text-[30px] relative bottom-[320px]">
-          {" "}
-          Leave us a message <br /> we would love to <br /> connect!
-        </p>
-      </div>
       <div className="flex-1">
-        <form className=" h-[560px] w-[500px] m-auto shadow-contactFormShadow">
+        <form className=" m-auto ">
           <h1 className=" text-[50px] font-satisfy text-[#DEC822] pb-10 pt-10 ">
             Contact Us
           </h1>
-          <input
-            className=" border-2 w-[400px] mb-5 p-2"
+            <input
+            className=" w-[35%] mb-5 p-2 bg-[#eee] rounded-md mr-2"
             type="text"
-            placeholder="Name"
-          />
+            placeholder="First Name"
+            />
+            <input
+            className=" w-[34%] mb-5 p-2 bg-[#eee] rounded-md"
+            type="text"
+            placeholder="Last Name"
+            />
           <br />
           <input
-            className=" border-2 w-[400px] mb-5 p-2"
+            className="  w-[70%] mb-5 p-2 bg-[#eee] rounded-md"
             type="text"
             placeholder="Email"
           />
           <br />
+          <input
+            className={` bg-top-[10px] bg-[length:15px] indent-[20px] bg-phone bg-no-repeat w-[70%] mb-5 p-2 bg-[#eee] rounded-md`}
+            type="text"
+            placeholder="Phone (__)-__-___"
+          />
+          <br />
           <textarea
-            className=" border-2 w-[400px] h-[150px] p-2"
+            className=" resize-none w-[70%] h-[150px] p-2 bg-[#eee] rounded-md"
             placeholder="Message..."
           ></textarea>
           <br />
